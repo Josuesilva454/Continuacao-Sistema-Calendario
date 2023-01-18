@@ -1,3 +1,3 @@
-# Complete User Login & Registration system using PHP and MySQL database
+# Comleta Usuário Conecte-se & Resgistro no sistema usando o PHP and MySQL database
 
 
