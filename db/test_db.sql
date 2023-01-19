@@ -83,4 +83,8 @@ CREATE TABLE `eventos` (
 -- Índices de tabela `events`
 --
 ALTER TABLE `eventos`
+<<<<<<< HEAD
   ADD PRIMARY KEY (`id`);
+=======
+  ADD PRIMARY KEY (`id`);
+>>>>>>> 333466d6a32d126f46aafd8c92abe5c69ba11a81
