@@ -54,6 +54,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 					},
 					events: [
 						<?php
+						//A função fetch_array() / mysqli_fetch_array() busca uma linha de resultado como um array associativo, um array numérico ou ambos 
 							while($row_events = mysqli_fetch_array($resultado_events)){
 								?>
 								{

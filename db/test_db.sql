@@ -39,14 +39,6 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
-(3, 'ela', '202cb962ac59075b964b07152d234b70', 'Ela'),
-(4, 'elias', '202cb962ac59075b964b07152d234b70', 'elias');
-
---
--- Indexes for dumped tables
---
-
 --
 -- Indexes for table `users`
 --
@@ -67,3 +59,28 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+CREATE TABLE `eventos` (
+  `id` int(11) NOT NULL,
+  `titulo` varchar(220) DEFAULT NULL,
+  `cor` varchar(10) DEFAULT NULL,
+  `hora` datetime DEFAULT NULL,
+  `saida` datetime DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Fazendo dump de dados para tabela `events`
+--
+
+
+
+--
+-- Índices de tabelas apagadas
+--
+
+--
+-- Índices de tabela `events`
+--
+ALTER TABLE `eventos`
+  ADD PRIMARY KEY (`id`);
