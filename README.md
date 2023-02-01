@@ -11,4 +11,10 @@
 
 # Tela de Agendamento
 
+<<<<<<< HEAD
 ![Agendamento](https://user-images.githubusercontent.com/84036932/213478972-f45e85b6-266c-4217-8ad3-f97dfebf97e2.png)
+=======
+![Agendamento](https://user-images.githubusercontent.com/84036932/213478972-f45e85b6-266c-4217-8ad3-f97dfebf97e2.png)
+
+
+>>>>>>> d1a7a8d0fdb5acfba2c6d6bfc7d670959aadd98c
