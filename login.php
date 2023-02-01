@@ -18,7 +18,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 		header("Location: index.php?error=Nome de usuário é requerido");
 	    exit();
 	}else if(empty($pass)){
-        header("Location: index.php?error=Senha requerida		");
+        header("Location: index.php?error=Senha requerida");
 	    exit();
 	}else{
 		// hashing the password
@@ -38,11 +38,11 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
             	header("Location: home.php");
 		        exit();
             }else{
-				header("Location: index.php?error=Incorect User name or password");
+				header("Location: index.php?error=Nome de usuário ou senha incorreta");
 		        exit();
 			}
 		}else{
-			header("Location: index.php?error=Incorect User name or password");
+			header("Location: index.php?error=Nome de usuário ou senha incorreta");
 	        exit();
 		}
 	}
